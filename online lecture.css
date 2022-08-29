@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+html{
+        scroll-behavior: smooth;
+}
+body{    background-color: #121227;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{  
+    background-color: rgba(0, 0, 0, 0.267);
+    padding:1%;
+    display: flex;      /*display flex دي ليجيب الهوم علي ليمين*/
+     justify-content: space-between;/*بردو علشان تيجي علي الليمين*/
+  width: 98%;
+  
+
+
+}
+.headname{
+color: white;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headname:hover{
+    color: rgba(255, 255, 255, 0.384);
+    transition: 0.5s;
+}
+header ul{
+     display: flex;
+justify-content:space-between ;
+list-style: none;
+margin-right: 6%;
+
+}
+header ul li{
+    margin-left:10px ;
+  
+}
+header ul li a{
+    color: rgba(255, 255, 255, 0.342);
+}
+header ul li a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.not{
+    text-align: center;
+    margin-top:150px;
+    color: white;
+}
+.nott{
+color: aquamarine;
+}
+.vid{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+@media (max-width:1023px) {
+    header{
+        display: block;
+        text-align: center;
+        font-size: xx-large;
+    }
+    header ul li a{
+  
+       margin-left: 450px;
+    }
+    .vid{
+        width: 50%;
+
+    }
+    .not{
+        font-size: xx-large
+    }
+}
