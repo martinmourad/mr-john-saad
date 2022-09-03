@@ -153,6 +153,7 @@ header ul li a:hover {
     text-align: center;
 }
 
+
 .cards2 {
     text-align: center;
     padding-top: 4%;
@@ -169,7 +170,7 @@ header ul li a:hover {
     margin: 15px;
     transition: 0.7s ease;
 
-}
+} 
 
 .card2:hover {
     transform: scale(1.1);
@@ -182,6 +183,7 @@ header ul li a:hover {
     font-size: 7em;
     text-align: center;
 }
+
 
 .content2 {
 

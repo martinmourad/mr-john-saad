@@ -59,8 +59,8 @@ header ul li a:hover{
 color: aquamarine;
 }
 .vid{
-    margin-left: 8%;
-    margin-top: 5%;
+ margin-left:180px ;
+ width: 1000px;
 }
 @media (max-width:1023px) {
     header{
@@ -70,11 +70,12 @@ color: aquamarine;
     }
     header ul li a{
   
-       margin-left: 450px;
+       margin-left: 440px;
     }
     .vid{
-        width: 50%;
-
+        width: 25%;
+margin-left: 350px;
+margin-top: 150px;
     }
     .not{
         font-size: xx-large
